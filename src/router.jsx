@@ -5,8 +5,6 @@ import AboutPage from "./about";
 import ContactPage from "./contact";
 import HeaderComp from "./Main-Component/Header";
 import ExampleComponent from "./example-component";
-import PropsComponent from "./props";
-import Statelifecycle from "./statelifecycle";
 
 const ExampleCompoRoute = React.lazy(()=>{ return import('./example-component/component-name-route') })
 const MainRouter = createBrowserRouter([
@@ -29,29 +27,11 @@ const MainRouter = createBrowserRouter([
     ),
   },
   {
-    path: "/lifecycle",
-    element: (
-      <>
-        <Statelifecycle/>
-        <HomePage />
-      </>
-    ),
-  },
-  {
     path: "/contact",
     element: (
       <>
         <HeaderComp />
         <ContactPage />
-      </>
-    ),
-  },
-  {
-    path: "/props",
-    element: (
-      <>
-        <HeaderComp />
-        <PropsComponent/>
       </>
     ),
   },

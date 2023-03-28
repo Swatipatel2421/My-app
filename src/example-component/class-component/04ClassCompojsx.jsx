@@ -15,7 +15,7 @@ class ClassCompojsx extends Component {
                     <h5 className='text-dark border-bottom py-2 fw-bold'>JSX:</h5>
                     <ul className='sub-content'>
                         <li>
-                            <p>{koidata} hello</p>
+                            <p>{koidata}</p>
                         </li>
                         <li>
                             <p>Addition of 50+874 is {50+874} </p>

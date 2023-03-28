@@ -39,12 +39,6 @@ class HeaderComponent extends Component {
                 <Link to="/component" className="nav-link">
                   Component
                 </Link>
-                <Link to="/props" className="nav-link">
-                  Props
-                </Link>
-                <Link to="/lifecycle" className="nav-link">
-                  lifecycle
-                </Link>
               </div>
             </div>
           </div>

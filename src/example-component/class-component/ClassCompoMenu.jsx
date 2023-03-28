@@ -13,6 +13,9 @@ class ClassCompoIntro extends Component {
                       <li><Link to="classcompoconstructor">02. Constuctor</Link></li>
                       <li><Link to="classcompostate">03. State In Class Compo</Link></li>
                       <li><Link to="classcompojsx">04. JSX In Class Compo</Link></li>
+                      <li><Link to="props">05. Props</Link></li>
+                      <li><Link to="StateLifecycle">06.StateLifeCycle</Link></li>
+                      <li><Link to="StateLifecycle">07.statelifecycleloader</Link></li>
                     </ul>
                     <Outlet></Outlet>
           </div>
