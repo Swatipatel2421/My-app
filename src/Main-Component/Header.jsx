@@ -6,7 +6,7 @@ import "../assets/header.css";
 class HeaderComponent extends Component {
     render() {
         return (
-            <>
+            <>  //navbar create using mdb bootstrap
               <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container">
             <div className="d-flex align-items-center justify-content-between w-100">
