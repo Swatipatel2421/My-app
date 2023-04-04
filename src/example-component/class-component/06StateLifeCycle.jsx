@@ -27,7 +27,7 @@ class StateLifeCycleCompo extends Component {
                             </ul>
                         </li>
                         <li>
-                     <p>For Example click here...</p>
+                     <p>For Example click here..</p>
                             <Link to="../exampleLifeCycle" className='btn btn-primary'>Demo Link</Link>
                             </li>
                     </ul>
