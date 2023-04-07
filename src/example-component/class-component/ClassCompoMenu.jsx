@@ -17,6 +17,13 @@ class ClassCompoIntro extends Component {
                       <li><Link to="lifecycle">06. State LifeCycle</Link></li>
                       <li><Link to="conditionalrender">07.ConditionalRendering</Link></li>
                       <li><Link to="listKeysArraymap">09.Keys List Array And Map</Link></li>
+                      <li><Link to="classcompospreadrest">13.class compo spread and rest</Link></li>
+                      <li><Link to="dynamicsubmenu">13.Dynamic Sub Menu</Link></li>
+                      <li><Link to="classcontrolledcompo">14.class controlled compo</Link></li>
+                      <li><Link to="unclasscontrolledcompo">14.UnControlled Compo</Link></li>
+                      <li><Link to="compositionvsinheritance">15.CompositionVsInheritance</Link></li>
+                      <li><Link to="stoppropagation">Stop Propagation</Link></li>
+
                     </ul>
                     <Outlet></Outlet>
           </div>

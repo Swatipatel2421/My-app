@@ -9,10 +9,17 @@ import PropsCompo from './05PropsCompo';
 import LifeCycleCompo from './06StateLifeCycle';
 import PropsExampleComp from './props-example/props-example';
 import ExampleLifeCycle from './Lifecycle-Example/ExampleLifeCycle';
-import ConditionalRender from './08.conditionalrender';
+import ConditionalRender from './07.conditionalrender';
 import RenderingExample from './ConditionalRendering-Example/RenderingExample';
 import ListKeysArraymap from './09.keyandlist';
 import KeyListMapExample from './KeyMap-example/KeyListMapExample';
+import ClassCompoSpreadRest from './10.ClassCompoSpreadRest';
+import DynamicSubMenu from './11.dynamicmenu';
+import ClassCompoControlledCompo from './12.ClassCompoControlledCompo';
+import UnClassCompoControlledCompo from './13.UncantrolledCompo';
+import CompositionVsInheritance from './14.CompositionVsInheritance';
+import Stoppropagation from './Stoppropagation';
+
 
 class ClassCompRoute extends Component {
     render() {
@@ -32,6 +39,13 @@ class ClassCompRoute extends Component {
                         <Route path="renderingexample" element={<RenderingExample/>}/>
                         <Route path="listKeysArraymap" element={<ListKeysArraymap/>}/>
                         <Route path="keylistmapexample" element={<KeyListMapExample/>}/>
+                        <Route path="classcompospreadrest" element={<ClassCompoSpreadRest/>}/>
+                        <Route path="dynamicsubmenu" element={<DynamicSubMenu/>}/>
+                        <Route path="classcontrolledcompo" element={<ClassCompoControlledCompo/>}/>
+                        <Route path="unclasscontrolledcompo" element={<UnClassCompoControlledCompo/>}/>
+                        <Route path="compositionvsinheritance" element={<CompositionVsInheritance/>}/>
+                        <Route path="stoppropagation" element={<Stoppropagation/>}/>
+
                     </Route>
                 </Routes> 
             </>
