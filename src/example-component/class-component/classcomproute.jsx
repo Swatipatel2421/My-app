@@ -19,6 +19,8 @@ import ClassCompoControlledCompo from './12.ClassCompoControlledCompo';
 import UnClassCompoControlledCompo from './13.UncantrolledCompo';
 import CompositionVsInheritance from './14.CompositionVsInheritance';
 import Stoppropagation from './Stoppropagation';
+import APIExample from './17.APIExaple';
+import ClassCompoHOC from './19HOC_in_classCompo/mainCompo';
 
 
 class ClassCompRoute extends Component {
@@ -45,6 +47,8 @@ class ClassCompRoute extends Component {
                         <Route path="unclasscontrolledcompo" element={<UnClassCompoControlledCompo/>}/>
                         <Route path="compositionvsinheritance" element={<CompositionVsInheritance/>}/>
                         <Route path="stoppropagation" element={<Stoppropagation/>}/>
+                        <Route path="apiexample" element={<APIExample/>}/>
+                        <Route path="classcompohoc" element={<ClassCompoHOC />} />
 
                     </Route>
                 </Routes> 
