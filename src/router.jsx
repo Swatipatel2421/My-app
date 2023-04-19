@@ -47,7 +47,7 @@ const MainRouter = createBrowserRouter([
       {
         path: "componentname/*",
               element: <Suspense fallback={<h2>Loading...</h2>}><ExampleCompoRoute/></Suspense>,
-      },
+      }
     ],
   },
 ]);

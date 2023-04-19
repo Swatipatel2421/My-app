@@ -1,9 +1,9 @@
 import React, { Component,Suspense } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import CompoNameMenu from './component-name';
-import FunctionComponent from './function-component';
 
 const ClassCompoRoute = React.lazy(()=>{ return import('./class-component/classcomproute.jsx') });
+const FunctionalCompoRoute = React.lazy(()=>{ return import('./functional-component/Functionalcomporoute')});
 
 class ComponentNameRoute extends Component {
     render() {
@@ -12,7 +12,7 @@ class ComponentNameRoute extends Component {
                 <Routes>
                     <Route path="/" element={<CompoNameMenu />} >
                         <Route path="classcomponent/*" element={<Suspense fallback={<h2>Loading...</h2>}><ClassCompoRoute/></Suspense>}></Route>
-                        <Route path="functioncomponent" element={<FunctionComponent />} />
+                        <Route path="functionalcomponent/*" element={<FunctionalCompoRoute/>}></Route>
                     </Route>
                 </Routes>
             </>
