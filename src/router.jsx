@@ -4,7 +4,7 @@ import HomePage from "./home";
 import AboutPage from "./about";
 import ContactPage from "./contact";
 import HeaderComp from "./Main-Component/header";
-import ExampleComponent from "./";
+import ExampleComponent from "./example-component";
 
 const ExampleCompoRoute = React.lazy(()=>{ return import('./example-component/component-name-route') })
 const MainRouter = createBrowserRouter([
