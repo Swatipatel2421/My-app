@@ -23,9 +23,6 @@ class ClassCompoIntro extends Component {
                       <li><Link to="unclasscontrolledcompo">14.UnControlled Compo</Link></li>
                       <li><Link to="compositionvsinheritance">15.CompositionVsInheritance</Link></li>
                       <li><Link to="stoppropagation">Stop Propagation</Link></li>
-                      <li><Link to="apiexample">APIExample</Link></li>
-                      <li><Link to="classcompohoc">Class Compo High Order Compo</Link></li>
-
 
                     </ul>
                     <Outlet></Outlet>
