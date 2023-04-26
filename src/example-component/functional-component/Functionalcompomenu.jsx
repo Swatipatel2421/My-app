@@ -10,6 +10,7 @@ const Functionalcompomenu = () => {
                   <ol>
                     <li><Link to="welcometofunctioncompo"> functional Compo Intro</Link></li>
                     <li><Link to="functionalcompostate"> functional Compo State</Link></li>
+                    <li><Link to="functionalcompolifecycle"> functional Compo useeffactlifecycle</Link></li>
                   
                   </ol>
                   <Outlet></Outlet>
