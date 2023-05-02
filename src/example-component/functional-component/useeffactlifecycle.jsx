@@ -11,9 +11,9 @@ const FunctionalCompoUseEffect = () => {
     //     console.log("useEffect");
     // },[])
 
-    useEffect(() => {
-      fetchData().then(myData => setData(myData))
-    }); 
+    // useEffect(() => {
+    //   fetchData().then(myData => setData(myData))
+    // }); 
 
 
     useEffect(()=>{
