@@ -12,10 +12,12 @@ const Functionalcompomenu = () => {
                     <li><Link to="functionalcompostate"> functional Compo State</Link></li>
                     <li><Link to="functionalcompouseeffact"> functional Compo Useeffact</Link></li>
                     <li><Link to="functionalcompousecallback"> functional Compo UseCallback</Link></li>
-                    <li><Link to="functionalcompoUsememo"> functional Compo UseCallback</Link></li>
-                    <li><Link to="functionalcompostylecompo"> functional Compo UseCallback</Link></li>
-                    <li><Link to="functionalcompoUSememofactorialExample"> functional Compo UseCallback</Link></li>
-                    <li><Link to="functionalcompocontext"> functional Compo UseCallback</Link></li>
+                    <li><Link to="functionalcompoUsememo"> functional Compo UseMemo</Link></li>
+                    <li><Link to="functionalcompostylecompo"> functional Compo Styledcompo</Link></li>
+                    <li><Link to="functionalcompoUSememofactorialExample"> functional Compo USememo factorial Example</Link></li>
+                    <li><Link to="functionalcompocontext"> functional Compo context</Link></li>
+                    <li><Link to="functionalreducer"> functional Compo Reducer</Link></li>
+                    <li><Link to="datasearch"> Data table</Link></li>
           
                   </ol>
                   <Outlet></Outlet>

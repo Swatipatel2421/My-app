@@ -9,7 +9,8 @@ import FunctionalCompoUseMemo from "./05FunctionalCompoUseMemo.jsx";
 import FunctionalCompoStyleCompo from "./06StyledComponentExample.jsx";
 import FunctionalCompoUseMemoExample from "./07FunctionalCompoUseMemoFactorialExample.jsx";
 import FunctionalCompoContect from "./08FunctionalCompoUseContext.jsx";
-    
+import FunctionalCompoUseReducer from './reducer.jsx'; 
+import DatatSearch from   './DataTable.jsx';
 
 const Functionalcomporoute = () => {
     return (
@@ -24,6 +25,8 @@ const Functionalcomporoute = () => {
                     <Route path="functionalcompostylecompo" element={<FunctionalCompoStyleCompo />} />
                     <Route path="functionalcompoUSememofactorialExample" element={<FunctionalCompoUseMemoExample />} />
                     <Route path="functionalcompocontext" element={<FunctionalCompoContect />} />
+                    <Route path="functionalreducer" element={<FunctionalCompoUseReducer />} />
+                    <Route path="datasearch" element={<DatatSearch />} />
 
                 </Route>
             </Routes>

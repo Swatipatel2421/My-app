@@ -1,19 +1,19 @@
-import React, { useContext } from "react";
-import { AppContext } from "./ContextTutorial";
+// import React, { useContext } from "react";
+// import { AppContext } from "./ContextTutorial.jsx";
 
-function Login() {
-  const { username,setUsername } = useContext(AppContext);
+// function Login() {
+//   const { username,setUsername } = useContext(AppContext);
 
-  return (
-    <div>
-      <h1>Login Compo: {username}</h1>
-      <input
-        onChange={(event) => {
-          setUsername(event.target.value);
-        }}
-      />
-    </div>
-  );
-}
+//   return (
+//     <div>
+//       <h1>Login Compo: {username}</h1>
+//       <input
+//         onChange={(event) => {
+//           setUsername(event.target.value);
+//         }}
+//       />
+//     </div>
+//   );
+// }
 
-export default Login;
+// export default Login;
